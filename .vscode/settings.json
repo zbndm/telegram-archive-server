@@ -1,7 +1,0 @@
-{
-  "typescript.tsdk": "./node_modules/typescript/lib",
-  "editor.codeActionsOnSave": { "source.fixAll": true },
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "cSpell.words": ["Meili", "meilisearch", "reakit"]
-}
