@@ -3,7 +3,7 @@ import { ConfigType } from '@nestjs/config'
 import meilisearchConfig from '../config/meilisearch.config'
 import { Index, MeiliSearch, Settings } from 'meilisearch'
 import Debug from 'debug'
-import deepEqual = require('deep-equal')
+import deepEqual from 'deep-equal'
 
 const debug = Debug('app:search:meili')
 

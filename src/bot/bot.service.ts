@@ -5,9 +5,9 @@ import botConfig from '../config/bot.config'
 import { OptionalTextMessageIndex } from '../search/meili-search.service'
 import httpConfig from '../config/http.config'
 import { PhotoSize, Update } from '@grammyjs/types'
-import Debug = require('debug')
+import Debug from 'debug'
 import fetch from 'node-fetch'
-import createHttpsProxyAgent = require('https-proxy-agent')
+import createHttpsProxyAgent from 'https-proxy-agent'
 import { IndexService } from 'src/search/index.service'
 import { ImageIndexService } from 'src/search/image-index.service'
 

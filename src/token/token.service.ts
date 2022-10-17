@@ -1,6 +1,6 @@
 import { ForbiddenException, Inject, Injectable } from '@nestjs/common'
 import { ConfigType } from '@nestjs/config'
-import jwt = require('jsonwebtoken')
+import jwt from 'jsonwebtoken'
 import authConfig from '../config/auth.config'
 
 export type AppTokenPayload = {
