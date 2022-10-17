@@ -16,7 +16,7 @@ import { join } from 'path'
 import { OCRModule } from './ocr/ocr.module'
 import { QueueModule } from './queue/queue.module'
 import cacheConfig from './config/cache.config'
-import redisStore = require('cache-manager-ioredis')
+import redisStore from 'cache-manager-ioredis'
 import ocrConfig from './config/ocr.config'
 import queueConfig from './config/queue.config'
 

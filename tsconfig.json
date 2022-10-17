@@ -18,9 +18,6 @@
     "strict": true,
     "skipLibCheck": true,
   
-    "noImplicitAny": false,
- 
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": false
+    "noImplicitAny": false
   }
 }
